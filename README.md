@@ -21,3 +21,7 @@ CUDA_VISIBLE_DEVICES=0 python demo/demo.py image --config config/nanodet-plus-m_
 $ wget https://raw.githubusercontent.com/d246810g2000/tensorrt/main/onnx_edit.py
 $ python onnx_edit.py output.onnx nanodet.onnx --outputs '787[1,80,40,40], 788[1,32,40,40], 809[1,80,20,20], 810[1,32,20,20], 831[1,80,10,10], 832[1,32,10,10]'
 ```
+
+## test result
+![17_14_19_41_1](https://github.com/Aruen24/nanodet-plus/assets/27750891/93e6aa21-7f16-415c-b125-18e05944f793)
+![1639730132_Blur_1](https://github.com/Aruen24/nanodet-plus/assets/27750891/94985637-561d-485d-868a-b8a2154f2b92)
